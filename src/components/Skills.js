@@ -6,7 +6,6 @@ import jsLogo from "../assets/img/javascript.svg";
 import reactLogo from "../assets/img/react.svg";
 import boostrapLogo from "../assets/img/bootstrap.svg";
 import threejsLogo from "../assets/img/threejs.svg";
-import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
     const responsive = {
@@ -68,7 +67,6 @@ export const Skills = () => {
                     </div>
                 </div>
             </div>
-            <img className="background-image-left" src={colorSharp} alt="Background"/>
         </section>
     )
 }
