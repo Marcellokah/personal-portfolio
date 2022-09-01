@@ -52,12 +52,13 @@ export const Banner = () => {
                         <Col xs={12} md={6} xl={7}>
                             <TrackVisibility>
                                 {({ isVisible }) =>
-                                    <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                                    <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
                                         <span className="tagline">Welcome to my Portfolio!</span>
-                                        <h1>{`Hi, I'm Marcell Almási - `}<span className="txt-rotate"><span className="wrap">{text}</span></span></h1>
+                                        <h1>{`Hi, I'm Marcell Almási - `} </h1> <h1
+                                        className="txt-rotate"><span className="wrap">{text}</span></h1>
                                         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
                                         <HashLink to='#connect'>
-                                            <button><span>Let's Connect <ArrowRightCircle size={25} /></span></button>
+                                            <button><span>Let's Connect<ArrowRightCircle size={25} /></span></button>
                                         </HashLink>
                                     </div>}
                             </TrackVisibility>
