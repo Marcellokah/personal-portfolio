@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import memoryGame from "../assets/img/memory-game.png";
+import fightingGame from "../assets/img/fighting-game.png";
+import ticTacToe from "../assets/img/tic-tac-toe.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -10,19 +10,19 @@ export const Projects = () => {
 
     const projects = [
         {
-            title: "Memory Game",
-            description: "React",
-            imgUrl: projImg1,
+            title: "Fighting Game",
+            description: "Vanilla Javascript with HTML Canvas",
+            imgUrl: fightingGame,
         },
         {
-            title: "Fighting Game",
-            description: "Vanilla Javascript",
-            imgUrl: projImg2,
+            title: "Memory Game",
+            description: "React App",
+            imgUrl: memoryGame,
         },
         {
             title: "Tic Tac Toe",
-            description: "Vanilla Javascript",
-            imgUrl: projImg3,
+            description: "Vanilla Javascript with HTML Canvas",
+            imgUrl: ticTacToe,
         }
     ];
 
