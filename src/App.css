@@ -543,7 +543,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0.2em 0;
 }
 
-a::after {
+.project a::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -555,8 +555,8 @@ a::after {
   transition: opacity 300ms, transform 300ms;
 }
 
-a:hover::after,
-a:focus::after {
+.project a:hover::after,
+.project a:focus::after {
   opacity: 1;
   transform: translate3d(0, 0.2em, 0);
 }
