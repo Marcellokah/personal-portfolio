@@ -37,7 +37,7 @@ export const Skills = () => {
                             <h2>
                                 Skills
                             </h2>
-                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                            <p>Here's a list of my skillset. I'm most confident with Vanilla HTML, CSS and Javascript, but I also created some cool things with React! (Just like this portfolio site.)</p>
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
                                     <img src={htmlLogo} alt="HTML" />

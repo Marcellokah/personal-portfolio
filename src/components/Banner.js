@@ -56,7 +56,7 @@ export const Banner = () => {
                                         <span className="tagline">Welcome to my Portfolio!</span>
                                         <h1>{`Hi, I'm Marcell Almási - `} </h1> <h1
                                         className="txt-rotate"><span className="wrap">{text}</span></h1>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                        <p>As the title mentions, I am a student of University of Szeged, learning at Computer Science Engineering department. Currently on passive status, looking for job opportunities in web development. Besides that, my biggest goal at the moment, is to became a full-time front-end developer.</p>
                                         <HashLink to='#connect'>
                                             <button><span>Let's Connect<ArrowRightCircle size={25} /></span></button>
                                         </HashLink>
