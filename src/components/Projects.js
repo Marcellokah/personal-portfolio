@@ -63,7 +63,7 @@ export const Projects = () => {
                                     <p>This personal portfolio page is the most precious project that I've worked on. Made with React, Bootstrap, Animate.css and with lots of love of course. </p>
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="third">
-                                    <p>On my GitHub profile, you can find all of these project repositories published. Feel free to check them out!</p>
+                                    <p>On my GitHub profile, you can find all of these project repositories published. Feel free to check them out <a href="https://github.com/Marcellokah"> HERE</a>!</p>
                                 </Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>
