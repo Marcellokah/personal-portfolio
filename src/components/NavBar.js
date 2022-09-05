@@ -33,7 +33,7 @@ export const NavBar = () => {
         <Router>
             <nav className={scrolled ? " navbar navbar-expand-lg scrolled" : "navbar navbar-expand-lg"}>
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" href="#home">
                         <img src={logo} alt="Logo" />
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
