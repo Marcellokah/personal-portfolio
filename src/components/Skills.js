@@ -37,7 +37,7 @@ export const Skills = () => {
                             <h2>
                                 Skills
                             </h2>
-                            <p>Here's a list of my skillset. I'm most confident with Vanilla HTML, CSS and Javascript, but I also created some cool things with React! (Just like this portfolio site.)</p>
+                            <p>Here's a list of my skillset. I'm most confident with Vanilla HTML, CSS and Javascript, but I have also created some cool things with React! (Just like this portfolio site.)</p>
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
                                     <img src={htmlLogo} alt="HTML" />
