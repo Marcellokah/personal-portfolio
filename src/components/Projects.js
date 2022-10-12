@@ -1,6 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import memoryGame from "../assets/img/memory-game.png";
+import chromeGame from "../assets/img/chrome-game.png";
+import pingPong from "../assets/img/ping-pong.png";
+import snakeGame from "../assets/img/snake-game.png";
 import fightingGame from "../assets/img/fighting-game.png";
 import ticTacToe from "../assets/img/tic-tac-toe.png";
 import 'animate.css';
@@ -14,6 +17,21 @@ export const Projects = () => {
             imgUrl: fightingGame,
         },
         {
+            title: "Chrome Game",
+            description: "Vanilla Javascript with HTML Canvas",
+            imgUrl: chromeGame,
+        },
+        {
+            title: "Ping Pong",
+            description: "Vanilla Javascript with HTML Canvas",
+            imgUrl: pingPong,
+        },
+        {
+            title: "Snake Game",
+            description: "Vanilla Javascript with HTML Canvas",
+            imgUrl: snakeGame,
+        },
+        {
             title: "Memory Game",
             description: "React App",
             imgUrl: memoryGame,
@@ -24,7 +42,7 @@ export const Projects = () => {
             imgUrl: ticTacToe,
         }
     ];
-
+    
     return (
         <section className="project" id="projects">
             <Container>

@@ -74,6 +74,7 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition: 0.32 ease-in-out;
+  overflow: auto;
 }
 
 nav.navbar.scrolled {
@@ -255,6 +256,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: auto;
 }
 
 .banner .tagline {
@@ -395,15 +397,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* --- Projects --- */
 
 .project {
-  height: 100vh;
+  height: 150vh;
   width: 100vw;
-  padding: 80px 0;
+  padding: 80px 0px;
   z-index: 0;
   position: relative;
   background-image: url('./assets/img/gold-bg.jpg');
-  background-position: top center;
+  background-position: bottom center;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: auto;
 }
 
 .project h2 {
@@ -568,6 +571,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: rgb(240, 165, 0);
   background: linear-gradient(0deg, rgba(240, 165, 0, 1) 0%, rgba(207, 117, 0, 1) 17%, rgba(3, 5, 4, 1) 36%);
   padding: 60px 0 20px 0;
+  overflow: auto;
 }
 
 .contact img {
