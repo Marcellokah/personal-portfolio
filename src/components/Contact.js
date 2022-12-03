@@ -47,10 +47,10 @@ export const Contact = () => {
         <section className="contact" id="connect">
             <Container>
                 <Row className="align-items-center">
-                    <Col md={6}>
+                    <Col md={6} className="text-center">
                         <img src={contactImg} alt="Contact Me" />
                     </Col>
-                    <Col md={6}>
+                    <Col md={6} className="text-center">
                         <h2>Get In Touch</h2>
                         <form onSubmit={handleSubmit}>
                             <Row>

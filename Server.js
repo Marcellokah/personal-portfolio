@@ -19,7 +19,7 @@ const contactEmail = nodemailer.createTransport({
   service: 'gmail',
   auth: {
     type: "OAUTH2",
-    user: process.env.GMAIL_USERNAME,  //set these in your .env file
+    user: process.env.GMAIL_USERNAME,
     clientId: process.env.OAUTH_CLIENT_ID,
     clientSecret: process.env.OAUTH_CLIENT_SECRET,
     refreshToken: process.env.OAUTH_REFRESH_TOKEN,
@@ -43,7 +43,7 @@ router.post("/contact", (req, res) => {
   const phone = req.body.phone;
   const mail = {
     from: name,
-    to: "aalma47@gmail.com",
+    to: "almasimarcell@gmail.com",
     subject: "Contact Form Submission - Portfolio",
     html: `<p>Name: ${name}</p>
            <p>Email: ${email}</p>

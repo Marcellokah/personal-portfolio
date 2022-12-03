@@ -12,7 +12,7 @@ export const Banner = () => {
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const toRotate = ["Web Developer", "Front - End Developer", "Student"];
+    const toRotate = ["Junior", "Front-End", "Developer"];
     const period = 2000;
 
     useEffect(() => {
@@ -50,14 +50,14 @@ export const Banner = () => {
             <section className="banner" id="home">
                 <Container>
                     <Row className="align-items-center">
-                        <Col xs={12} md={6} xl={7}>
+                        <Col xs={12} md={6} xl={7} >
                             <TrackVisibility>
                                 {({ isVisible }) =>
                                     <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
                                         <span className="tagline">Welcome to my Portfolio!</span>
                                         <h1>{`Hi, I'm Marcell Almási - `} </h1> <h1
-                                        className="txt-rotate"><span className="wrap">{text}</span></h1>
-                                        <p>As the title mentions, I am a student of University of Szeged, learning at Computer Science Engineering department. Currently on passive status, looking for job opportunities in web development. Besides that, my biggest goal at the moment, is to became a full-time front-end developer.</p>
+                                            className="txt-rotate"><span className="wrap">{text}</span></h1>
+                                        <p>I am a student of the University of Szeged, learning at Computer Science Engineering department. Currently taking a break from my studies, looking for job opportunities in web development. Besides that, my biggest goal at the moment, is to became a full-time front-end developer.</p>
                                         <HashLink to='#connect'>
                                             <button><span>Let's Connect<ArrowRightCircle size={25} /></span></button>
                                         </HashLink>
